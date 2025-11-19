@@ -6,9 +6,11 @@
   --accent2-color: #e9c46a; /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
-  --colo1: beige; 
-  --color2: yellow; 
-  --color3: 
+  --color1: #f5f5dc; 
+  --color2: #ffff00; 
+  --white: #ffd;
+  --black: rgb(3, 3, 8);
+  --transparent-bkcolor: rgba(255,255,255,0.7)
 }
 /*reset general*/
 * {
@@ -20,7 +22,7 @@
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
-  background-color: var(beige);
+  background-color: var(--color1);
   
 }
 /*Ancho de la pagina*/
@@ -52,7 +54,7 @@ header {
 header img {
   width: 120px;
   border-radius: 5px;
-  color: 
+
 }
 
 nav ul {
@@ -94,16 +96,16 @@ nav ul li a {
   padding: 16px;
   text-align: center;
   background-color: var(--accent1-color);
-  color: white;
+  color: var(--white);
   opacity: 0.7;
 }
 /*Article over the picture*/
-.Hero article {
+.hero article {
   position: absolute;
   bottom: 20px;
   left: 10px;
   right: 10px;
-  background-color: rgba(255,255,255,0.7);
+  background-color: var(--transparent-bkcolor);
   padding: 16px;
   border-radius: 8px;
   display: flex;
@@ -119,7 +121,7 @@ nav ul li a {
 /*Footer*/
 footer {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
   text-align: center;
   padding: 20px;
 }
