@@ -1,18 +1,12 @@
 /*variables*/
 :root {
   --primary-color: #055a05;
-  /* forest green */
-  /* --secondary-color: #f4a261; warm sand */
   --accent1-color: #264653;
-  /* dark slate blue */
   --accent2-color: #e9c46a;
-  /* light golden yellow */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
   --color1: #f3f3e6;
-  /* --color2: #ffff00;  */
   --white: #ffd;
-  /* --black: rgb(3, 3, 8); */
   --transparent-bkcolor: rgba(255, 255, 255, 0.7)
 }
 
