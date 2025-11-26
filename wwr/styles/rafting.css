@@ -40,7 +40,31 @@ h1,
 h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
 
+/*------History----*/
+h2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.history-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.history-grid img {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.history-grid {
+  font-size: 1.2rem;
 }
 
 /*Espacios basicos*/
@@ -55,23 +79,27 @@ article {
 /*HeaDER*/
 header {
   display: flex;
+  grid-template-columns: auto 1fr;
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color);
   color: var(--accent2-color);
   padding: 10px;
+  gap: 20px;
+
 }
 
 header img {
   width: 120px;
   border-radius: 5px;
 
+
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 16px;
+  gap: 30px;
 }
 
 nav ul li a {
@@ -88,6 +116,7 @@ nav ul li a {
 .socialmedia img {
   width: 40px;
   margin: 0 10px;
+
 }
 
 /*Principal hero*/
@@ -124,12 +153,14 @@ nav ul li a {
   border-radius: 8px;
   display: flex;
   align-items: center;
+  font-size: 2.0rem;
+
 }
 
 /*Imagen dentro del articulo*/
 .hero article img {
   float: right;
-  width: 125px;
+  width: 300px;
   margin-left: 10px;
 }
 
@@ -137,6 +168,30 @@ nav ul li a {
 footer {
   background-color: var(--primary-color);
   color: var(--white);
-  text-align: center;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialmedia {
+  display: flex;
+  align-items: center;
+}
+
+/*Adventure Awaits You*/
+.pictures {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.pictures figure {
+  width: 18%;
+  text-align: center;
+}
+
+.pictures img {
+  width: 100%;
+  border-radius: 8px;
 }
