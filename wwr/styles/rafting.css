@@ -48,7 +48,6 @@ h2 {
 h2 {
   display: flex;
   justify-content: center;
-
 }
 
 .history-grid {
@@ -75,9 +74,8 @@ article {
 
 /*HeaDER*/
 header {
-  display: flex;
-  grid-template-columns: auto 1fr;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 150px 1fr auto;
   align-items: center;
   background-color: var(--primary-color);
   color: var(--accent2-color);
