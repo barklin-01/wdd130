@@ -31,7 +31,8 @@ body {
 header,
 main,
 footer {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -42,13 +43,10 @@ h2 {
   color: var(--primary-color);
   font-size: 2.5rem;
   margin-bottom: 16px;
-}
-
-/*------History----*/
-h2 {
   display: flex;
   justify-content: center;
 }
+
 
 .history-grid {
   display: grid;
