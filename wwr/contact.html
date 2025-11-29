@@ -7,7 +7,7 @@
     <meta name="description"
         content="Learn about White Water Rafting, our mission, values, and the team dedicated to providing you with unforgettable rafting adventures.">
     <meta name="author" content="Barklin Gonzalez">
-    <title>AquaRush Rafting - About us</title>
+    <title>Contact Us - AquaRush Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -25,67 +25,75 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/hero-rafting.jpg" alt="background of the page">
+        <div class="information">
             <h1>AquaRush Rafting</h1>
-            <article>
-                <img src="images/peolpe.jpg" alt="People doing the activity">
-                <p>Our mission is to take you on the best river adventures with safety, excitement and professionalism.
-                </p>
-            </article>
+            <p>Street Bolivar and Street Juan N Gusman</p>
+            <p>OTAVALO - ECUADOR</p>
+            <p> +593 993912331 / +593 983244967</p>
+            <p>rafting.2001@gmail.com</p>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1677.4985626745356!2d-78.26269541613031!3d0.229001961354005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a149a827a5c27%3A0x66fbc0659df27bec!2sC%2F%20Salinas%20402%2C%20Otavalo!5e0!3m2!1sen!2sec!4v1764454732312!5m2!1sen!2sec"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <section>
-            <h2>History</h2>
-            <div class="history-grid">
-                <p>AquaRush Rafting was born from a dream shared by a group of friends who loved adventure and rafting.
-                    It
-                    all started with small trips we organized just for fun, always looking for new currents, stronger
-                    rapids, and unforgettable moments on the river. Over time, more people began joining our outings,
-                    and we
-                    realized that we could share this passion with others. </p>
-                <img src="images/rapfting1.jpg" alt="Imagen center of the text">
-                <p>What started as a hobby among friends slowly grew into something bigger. That’s when we decided to
-                    take the next step and officially create AquaRush
-                    Rafting. Today, we carry the same energy from our early trips, offering exciting, safe, and
-                    adrenaline-filled experiences to everyone who wants to feel the power of the water and live
-                    adventure to
-                    the fullest.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Adventure Awaits You!</h2>
+            <h2>We are Here ti Serve You!</h2>
             <div class="pictures">
                 <figure>
-                    <img src="images/picture1.jpg" alt="adrenaline-filled">
-                    <figcaption>Adrenaline Filled</figcaption>
+                    <img src="images/guia.jpg" alt="rafting-guides">
+                    <figcaption>Rafting Guides</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/picture2.jpg" alt="river-adventure">
-                    <figcaption>River Adventure</figcaption>
+                    <img src="images/rescatista.jpg" alt="safety-kayakers">
+                    <figcaption>Safety Kayakers</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/picture3.jpg" alt="river-challenge">
-                    <figcaption>River Challenge</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/picture4.jpg" alt="beautiful-places">
-                    <figcaption>Beautiful Places</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/picture5.jpg" alt="teamwork">
-                    <figcaption>Teamwork</figcaption>
+                    <img src="images/equipo.jpg" alt="Logistics-staff">
+                    <figcaption>Logistics Staff</figcaption>
                 </figure>
             </div>
         </section>
+        <section class=" contact-form">
+            <form action="procesador.php" method="post">
+                <label for="username"> Name</label>
+                <input type="text" id="username" name="username">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email">
+                <!--I use the radio button for select one opcion -->
+                <p>Message purpose</p>
+                <input type="radio" name="purpose" id="inquiry" value="General Inquiry" required>
+                <label for="inquiry"> General Inquiry</label>
+
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation"> Reservation Inquiry</label>
+
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <label for="suggestion"> Website Suggestion</label>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
+
+                <label> <input type="checkbox" id="newsletter" name="newsletter"> Please Subscribe me to the monthyly
+                    newsletter</label>
+
+                <button type="submit"> Get in Touch!</button>
+            </form>
+        </section>
+
     </main>
+
+
+
+
+
     <footer>
         <p>&copy; 💧2025 AquaRush Rafting 💧 Barklin Gonzalez </p>
-        <nav class="socialmedia">
+        <nav class=" socialmedia">
             <a href="https://www.facebook.com/"> <img src="images/facebook.png" alt="Facebook Icon">
             </a>
             <a href="https://www.instagram.com/"> <img src="images/instagram.png" alt="Instagram Icon">
