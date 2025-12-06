@@ -1,0 +1,39 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+OrderManager: Order registration system
+
+2. What real-world problem will your program address or help to solve?
+The problem I want to solve is that a customer sends an order via messages and many 
+times that order gets lost among so many messages or sometimes gets confused.
+
+3. What will you learn from developing this program?
+What I can learn by making this program is how to use CSV files to store data, 
+validate user input, design functions, and structure data as dictionaries and lists.
+
+4. What Python modules will your program use?
+My program will use the csv module to save the orders and the datetime module to record the date.
+
+5. List the names of functions you will need?
+
+get_user_input() – Requests order data.
+create_order_record(quantity, size, bust, color, model, image) – Creates a dictionary containing an order.
+save_order(order) – Saves an order to a CSV file.
+load_orders() – Loads all orders from the file.
+display_orders() – Displays all existing orders.
+validate_input(data) – Validates the data.
+
+6. List the names of the test functions you will write.
+
+test_create_order_record()
+test_save_and_load_order()
+test_validate_input()
