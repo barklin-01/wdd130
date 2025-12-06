@@ -36,7 +36,7 @@ footer {
 }
 
 /*Encabezado*/
-h1,
+.title-1,
 h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
@@ -92,7 +92,7 @@ nav ul li a {
   z-index: 1;
 }
 
-h1 {
+.title-1 {
   position: absolute;
   top: 20px;
   left: 50%;
@@ -154,7 +154,13 @@ p {
 }
 
 /*Title from contact ud*/
-
+.title {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-align: center;
+}
 
 /*Information*/
 .information {
