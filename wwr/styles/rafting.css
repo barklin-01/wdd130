@@ -350,7 +350,7 @@ footer {
 }
 
 .t2 {
-  font-size: 3.5rem;
+  font-size: 3.1rem;
 }
 
 .formulario {
@@ -425,3 +425,75 @@ footer {
 }
 
 /* Pagina de Viajes*/
+/*contactanos*/
+
+.contact {
+  position: absolute;
+  top: 30%;
+  right: 30px;
+  background: rgb(255, 255, 255, 0.4);
+  padding: 10px 10px;
+  border-radius: 25px;
+  max-width: 700px;
+  height: 260px;
+  backdrop-filter: blur(4px);
+  z-index: 80;
+}
+
+/*Imagenes*/
+.trip {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.trip img {
+  width: 100%;
+  height: 70%;
+  border-radius: 8px;
+}
+
+.trip h3 {
+  margin: 10px;
+  font-size: 1.6rem;
+  color: #1b4d2e;
+  text-align: center;
+}
+
+.trip p {
+  color: black;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.trips-table h2 {
+  margin-top: 30px;
+  font-size: 3.1rem;
+}
+
+/*tabla de valores*/
+.trips-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.trips-table th,
+.trips-table td {
+  border: 2px solid black;
+  padding: 12px;
+  text-align: center;
+}
+
+.trips-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.trips-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
